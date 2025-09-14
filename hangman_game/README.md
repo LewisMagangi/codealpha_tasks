@@ -31,33 +31,34 @@ Hangman is a word guessing game where the player tries to guess a secret word on
 ## 🛠️ Installation & Setup
 
 1. **Clone/Download the project**:
+
    ```bash
    git clone https://github.com/YourUsername/CodeAlpha_HangmanGame.git
    cd CodeAlpha_HangmanGame
    ```
 
-2. **Requirements**: 
+2. **Requirements**:
+
    - Python 3.6 or higher
    - No external dependencies required (uses only built-in modules)
 
 ## 🎯 How to Play
 
 1. **Run the game**:
-   
+
    ```bash
    python hangman.py
    ```
 
-2. **Game Rules**:
-   - Guess one letter at a time
+1. **Game Rules**:   - Guess one letter at a time
    - You have 6 incorrect guesses maximum
    - Letters are case-insensitive
    - Type 'quit' anytime to exit
    - Complete the word before running out of guesses to win!
 
-3. **Example Gameplay**:
-  
-   ```
+1. **Example Gameplay**:
+
+   ```text
    Word: _ _ _ _ _ _
    Guessed letters: None
    Incorrect guesses: 0/6
@@ -74,7 +75,7 @@ Hangman is a word guessing game where the player tries to guess a secret word on
 
 ## 📁 Project Structure
 
-```
+```text
 hangman_game/
 │
 ├── hangman.py          # Main game file
@@ -98,7 +99,7 @@ This project showcases several important Python programming concepts:
 
 ## 🎨 Game Flow
 
-```
+```text
 Start Game
     ↓
 Select Random Word
@@ -126,7 +127,7 @@ End Game
 
 ## 📝 Code Examples
 
-### Main Game Class Structure:
+### Main Game Class Structure
 
 ```python
 class HangmanGame:
@@ -143,7 +144,7 @@ class HangmanGame:
             self.make_guess(guess)
 ```
 
-### Visual Hangman Display:
+### Visual Hangman Display
 
 ```python
 def display_hangman(self):
@@ -158,6 +159,7 @@ def display_hangman(self):
 ## 🏆 Learning Outcomes
 
 After completing this project, you will have hands-on experience with:
+
 - Python class design and object-oriented programming
 - Game loop implementation
 - User input handling and validation
@@ -169,6 +171,7 @@ After completing this project, you will have hands-on experience with:
 ## 🤝 Contributing
 
 This is an internship project, but suggestions and improvements are welcome! Feel free to:
+
 - Report bugs
 - Suggest new features
 - Submit pull requests
@@ -184,13 +187,12 @@ CodeAlpha is a leading software development company focused on building scalable
 
 ## 📞 Contact
 
-- **Project Creator**: [Your Name]
-- **GitHub**: [Your GitHub Profile]
-- **LinkedIn**: [Your LinkedIn Profile]
-- **Email**: [Your Email]
+- **Project Creator**: [Lewis Magangi]
+- **GitHub**: [https://github.com/LewisMagangi]
+- **LinkedIn**: [https://www.linkedin.com/in/lewis-magangi/]
 
 ---
 
 ## Happy Coding! 🐍
 
-Built with ❤️ during CodeAlpha Python Internship*
+Built with ❤️ during CodeAlpha Python Internship

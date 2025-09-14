@@ -45,18 +45,20 @@ The Stock Portfolio Tracker is a console-based application that allows users to 
 ## 🛠️ Installation & Setup
 
 1. **Clone/Download the project**:
+
    ```bash
    git clone https://github.com/YourUsername/CodeAlpha_StockPortfolioTracker.git
    cd CodeAlpha_StockPortfolioTracker
    ```
 
-2. **Requirements**: 
+2. **Requirements**:
    - Python 3.6 or higher
    - No external dependencies required
 
 ## 🎯 How to Use
 
 1. **Run the application**:
+
    ```bash
    python stock_tracker.py
    ```
@@ -72,7 +74,8 @@ The Stock Portfolio Tracker is a console-based application that allows users to 
    - **Exit**: Close the application
 
 3. **Example Usage**:
-   ```
+
+   ```text
    📊 STOCK PORTFOLIO TRACKER - CodeAlpha 📊
    
    1. 👀 View Available Stocks
@@ -89,7 +92,7 @@ The Stock Portfolio Tracker is a console-based application that allows users to 
 
 ## 📁 Project Structure
 
-```
+```text
 stock_portfolio_tracker/
 │
 ├── stock_tracker.py    # Main application file
@@ -117,7 +120,8 @@ This project showcases important Python programming concepts:
 
 ## 💾 File Export Examples
 
-### CSV Output:
+### CSV Output
+
 ```csv
 Stock Symbol,Quantity,Price per Share,Total Value
 AAPL,10,$180.50,$1805.00
@@ -126,8 +130,9 @@ GOOGL,2,$2750.30,$5500.60
 ,,TOTAL:,$8559.35
 ```
 
-### TXT Output:
-```
+### TXT Output
+
+```text
 STOCK PORTFOLIO TRACKER - CodeAlpha
 ==================================================
 Generated on: 2025-09-14 15:30:45
@@ -143,7 +148,7 @@ TOTAL PORTFOLIO VALUE: $8559.35
 
 ## 🎮 Application Flow
 
-```
+```text
 Start Application
     ↓
 Display Main Menu
@@ -163,7 +168,8 @@ Process User Choice
 
 ## 📊 Sample Code Snippets
 
-### Portfolio Value Calculation:
+### Portfolio Value Calculation
+
 ```python
 def calculate_portfolio_value(self):
     if not self.portfolio:
@@ -177,7 +183,8 @@ def calculate_portfolio_value(self):
     return total_value
 ```
 
-### CSV Export Function:
+### CSV Export Function
+
 ```python
 def _save_as_csv(self, filename):
     with open(filename, 'w', newline='', encoding='utf-8') as csvfile:
@@ -193,6 +200,7 @@ def _save_as_csv(self, filename):
 ## 🏆 Learning Outcomes
 
 After completing this project, you will have experience with:
+
 - Object-oriented programming in Python
 - Dictionary manipulation and data structures
 - File I/O operations (CSV and TXT)
@@ -224,6 +232,6 @@ CodeAlpha is a leading software development company focused on building scalable
 
 ---
 
-**Happy Investing! 📈**
+## Happy Investing! 📈
 
-*Built with ❤️ during CodeAlpha Python Internship*
+Built with ❤️ in Python
