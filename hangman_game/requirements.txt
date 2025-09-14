@@ -1,0 +1,7 @@
+# No external dependencies required for this project
+# This hangman game uses only Python built-in modules:
+# - random (for word selection)
+# - os (for screen clearing)
+
+# If you want to run this project, ensure you have:
+# Python >= 3.6

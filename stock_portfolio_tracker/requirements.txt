@@ -1,0 +1,8 @@
+# No external dependencies required for this project
+# This stock portfolio tracker uses only Python built-in modules:
+# - csv (for CSV file export)
+# - os (for file operations)
+# - datetime (for timestamp generation)
+
+# If you want to run this project, ensure you have:
+# Python >= 3.6
